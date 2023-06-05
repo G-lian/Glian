@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <title>Login</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block content %}
+    <div class="login-form">
+        <!-- <h1>登录</h1> -->
+        <!-- 登录表单 -->
+
+        <div class="container">
+            <form>
+                <h1>登录</h1>
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" class="form-control" id="email" placeholder="请输入邮箱">
+                </div>
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" class="form-control" id="password" placeholder="请输入密码">
+                </div>
+                <button type="submit" class="btn btn-primary">登录</button>
+            </form>
+        </div>
+
+    </div>
+    {% endblock %}
+</body>
+</html>

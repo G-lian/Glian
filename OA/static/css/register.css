@@ -1,0 +1,95 @@
+/* register */
+
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #f08bac;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #f08bac;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e396af;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #d7527f;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #E91E63;
+    width: 95%; /* 调整为所需的百分比 */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%; /* 调整为所需的百分比 */
+    color: rgb(196, 100, 100); /* 设置文字颜色为红色 */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgb(226, 183, 197); /* 设置提示文字颜色为蓝色 */
+}
+
+input[type="text"]::selection,
+input[type="email"]::selection,
+input[type="password"]::selection {
+    color: rgb(149, 17, 61); /* 设置选中文本的颜色为红色 */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #F5F5F5; /* 设置输入框被选中时的背景色 */
+    color: rgb(180, 97, 97); /* 设置输入框被选中时的文本颜色 */
+}
+
+/* 注释语更改 */
+#my_p {
+    color: rgb(223, 202, 209);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-group .btn-primary {
+    margin-top: 20px;
+}
+
+/* 
+.register-container .form-group p {
+    color: rgb(226, 183, 197);
+} */

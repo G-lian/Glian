@@ -1,0 +1,78 @@
+/* login */
+
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #f08bac;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #f08bac;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e396af;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #d7527f;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #E91E63;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    color: rgb(196, 100, 100);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgb(226, 183, 197);
+}
+
+input[type="text"]::selection,
+input[type="email"]::selection,
+input[type="password"]::selection {
+    color: rgb(149, 17, 61);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #F5F5F5;
+    color: rgb(180, 97, 97);
+}

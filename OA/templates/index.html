@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Top Navigation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='navbar.css') }}">
+</head>
+<body>
+    <div class="topnav">
+        <a href="#">首页</a>
+        <a href="#">发布问答</a>
+        <div class="search-box">
+            <input type="text" placeholder="关键字搜索">
+            <input type="submit" value="搜索">
+        </div>
+        <a href="{{ url_for('auth.login') }}">登录</a>
+        <a href="{{ url_for('auth.register') }}">注册</a>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block content %}
+    <div class="home-form">
+        <!-- <h1>首页</h1> -->
+        <!-- 首页内容 -->
+    </div>
+    {% endblock %}
+    
+</body>
+</html>
+
